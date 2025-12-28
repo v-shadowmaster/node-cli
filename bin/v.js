@@ -18,6 +18,10 @@ try{
   } else {
     throw new Error(`Unknown command: ${command}`);
   }
+  
+  if(command === "list") {
+    console.log("install - installs the latest version of the package from the github");
+  }
 } catch (err) {
   console.error(err.message);
   process.exit(1);
