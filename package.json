@@ -2,6 +2,9 @@
   "name": "v",
   "version": "1.0.0",
   "description": "a simple working clone of npm or yarn for installing repo's from my github ",
+  "bin" : {
+     "v" : "./bin/v.js"
+  },
   "keywords": [
     "nodejs",
     "cli",
