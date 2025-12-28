@@ -1,6 +1,6 @@
 import fs from "fs"; 
 import path from "path"; 
-import { getPackagesDir } from "../core/path.js";
+import { getPackagesDir } from "../core/paths.js";
 import { getRepoUrl } from "../core/github.js"; 
 import { run } from "../utils/exec.js";
 
