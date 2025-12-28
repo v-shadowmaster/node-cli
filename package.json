@@ -2,8 +2,8 @@
   "name": "v",
   "version": "1.0.0",
   "description": "a simple working clone of npm or yarn for installing repo's from my github ",
-  "bin" : {
-     "v" : "./bin/v.js"
+  "bin": {
+    "v": "./bin/v.js"
   },
   "keywords": [
     "nodejs",
@@ -27,5 +27,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
   }
 }
