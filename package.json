@@ -1,0 +1,28 @@
+{
+  "name": "v",
+  "version": "1.0.0",
+  "description": "a simple working clone of npm or yarn for installing repo's from my github ",
+  "keywords": [
+    "nodejs",
+    "cli",
+    "npm",
+    "yarn",
+    "github",
+    "repo"
+  ],
+  "homepage": "https://github.com/v-shadowmaster/node-cli#readme",
+  "bugs": {
+    "url": "https://github.com/v-shadowmaster/node-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-shadowmaster/node-cli.git"
+  },
+  "license": "MIT",
+  "author": "Vinay Kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
