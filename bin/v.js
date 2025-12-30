@@ -18,6 +18,7 @@ try{
   }
    else if(command === "list"){
    console.log("install : installs the latest version of the repo from github");
+   console.log("remove : removes the repo from the v_packages folder if present");
    }
    else {
     throw new Error(`Unknown command: ${command}`);
